@@ -1,0 +1,15 @@
+Sub app3_optionParameter()
+OptionalArgs "Mahmoud"
+End Sub
+Sub OptionalArgs(strState As String, Optional varRegion As Variant, Optional varCountry As Variant = "Egypt")
+    If IsMissing(varRegion) And IsMissing(varCountry) Then
+        MsgBox (strState)
+    ElseIf IsMissing(varCountry) Then
+        MsgBox (strState & " From " & varRegion)
+    ElseIf IsMissing(varRegion) Then
+        MsgBox (strState & " From " & varCountry)
+    Else
+        MsgBox (strState & " " & varRegion & " " & varCountry)
+    End If
+OpenTextFileCode "\codes\optionParameter.txt"
+End Sub

@@ -1,0 +1,16 @@
+D:\The College\second term\App program\tasks\apps\vb\Assignments Section\Assignments Section\bin\Debug\Assignments Section.exe.config
+D:\The College\second term\App program\tasks\apps\vb\Assignments Section\Assignments Section\bin\Debug\Assignments Section.exe
+D:\The College\second term\App program\tasks\apps\vb\Assignments Section\Assignments Section\bin\Debug\Assignments Section.pdb
+D:\The College\second term\App program\tasks\apps\vb\Assignments Section\Assignments Section\bin\Debug\Assignments Section.xml
+D:\The College\second term\App program\tasks\apps\vb\Assignments Section\Assignments Section\obj\Debug\Assignments_Section.Form1.resources
+D:\The College\second term\App program\tasks\apps\vb\Assignments Section\Assignments Section\obj\Debug\Assignments_Section.Resources.resources
+D:\The College\second term\App program\tasks\apps\vb\Assignments Section\Assignments Section\obj\Debug\Assignments Section.vbproj.GenerateResource.Cache
+D:\The College\second term\App program\tasks\apps\vb\Assignments Section\Assignments Section\obj\Debug\Assignments Section.exe
+D:\The College\second term\App program\tasks\apps\vb\Assignments Section\Assignments Section\obj\Debug\Assignments Section.xml
+D:\The College\second term\App program\tasks\apps\vb\Assignments Section\Assignments Section\obj\Debug\Assignments Section.pdb
+D:\The College\second term\App program\tasks\apps\vb\Assignments Section\Assignments Section\obj\Debug\Assignments_Section.Form_verb.resources
+D:\The College\second term\App program\tasks\apps\vb\Assignments Section\Assignments Section\obj\Debug\Assignments_Section.projCH3Bio_form2.resources
+D:\The College\second term\App program\tasks\apps\vb\Assignments Section\Assignments Section\obj\Debug\Assignments_Section.projCH3_form1.resources
+D:\The College\second term\App program\tasks\apps\vb\Assignments Section\Assignments Section\obj\Debug\Assignments_Section.Form2.resources
+D:\The College\second term\App program\tasks\apps\vb\Assignments Section\Assignments Section\obj\Debug\Assignments_Section.AboutNotebad.resources
+D:\The College\second term\App program\tasks\apps\vb\Assignments Section\Assignments Section\obj\Debug\Assignments_Section.project_notebad.resources

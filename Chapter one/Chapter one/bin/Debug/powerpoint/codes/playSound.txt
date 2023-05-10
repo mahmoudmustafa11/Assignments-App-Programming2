@@ -1,0 +1,18 @@
+Sub app8_playSound()
+Dim sPath As String
+sPath = folder_path + "\112-alekhlas.wav"
+PlayWavFileAPI sPath, False
+PlayWavFileAPI sPath, True
+MsgBox "??? C???C?E EU?? E?I C?E?C? EOU?? C???? C???E?"
+OpenTextFileCode "\codes\playSound.txt"
+End Sub
+Function PlayWavFileAPI(sPath As String, Wait As Boolean) As Boolean
+If Dir(sPath) = "" Then
+Exit Function
+End If
+If Wait Then
+sndPlaySound sPath, 0
+Else
+sndPlaySound sPath, 1
+End If
+End Function

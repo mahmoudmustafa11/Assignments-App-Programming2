@@ -1,0 +1,14 @@
+Sub arrayParameter(st As String, ParamArray intscores() As Variant)
+Dim i As Integer
+Dim msg As String
+msg = msg & vbCrLf & st & " " & "scores"
+For i = 0 To UBound(intscores())
+msg = msg & " " & intscores(i)
+Next i
+MsgBox (msg)
+End Sub
+
+
+Sub app4_arrayParameter()
+arrayParameter "Mahmoud", 10, 26, 32, 15, 22, 24, 16
+End Sub

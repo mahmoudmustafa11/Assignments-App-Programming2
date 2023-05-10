@@ -1,0 +1,8 @@
+Sub app1_save()
+Application.ActivePresentation.Save
+End Sub
+
+Sub app1_saveAs()
+Application.ActivePresentation.SaveAs ("C:\newPresenteation.docx")
+MsgBox ("Saving is completed on C")
+End Sub

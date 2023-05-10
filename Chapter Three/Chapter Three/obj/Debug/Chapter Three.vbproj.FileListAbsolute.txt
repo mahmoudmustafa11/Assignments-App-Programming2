@@ -1,0 +1,14 @@
+D:\The College\second term\App program\tasks\apps\vb\Chapter Three\Chapter Three\bin\Debug\Chapter Three.exe.config
+D:\The College\second term\App program\tasks\apps\vb\Chapter Three\Chapter Three\bin\Debug\Chapter Three.exe
+D:\The College\second term\App program\tasks\apps\vb\Chapter Three\Chapter Three\bin\Debug\Chapter Three.pdb
+D:\The College\second term\App program\tasks\apps\vb\Chapter Three\Chapter Three\bin\Debug\Chapter Three.xml
+D:\The College\second term\App program\tasks\apps\vb\Chapter Three\Chapter Three\obj\Debug\Chapter_Three.Form_Main.resources
+D:\The College\second term\App program\tasks\apps\vb\Chapter Three\Chapter Three\obj\Debug\Chapter_Three.Resources.resources
+D:\The College\second term\App program\tasks\apps\vb\Chapter Three\Chapter Three\obj\Debug\Chapter Three.vbproj.GenerateResource.Cache
+D:\The College\second term\App program\tasks\apps\vb\Chapter Three\Chapter Three\obj\Debug\Chapter Three.exe
+D:\The College\second term\App program\tasks\apps\vb\Chapter Three\Chapter Three\obj\Debug\Chapter Three.xml
+D:\The College\second term\App program\tasks\apps\vb\Chapter Three\Chapter Three\obj\Debug\Chapter Three.pdb
+D:\The College\second term\App program\tasks\apps\vb\Chapter Three\Chapter Three\obj\Debug\Chapter_Three.ismdicontainer_form.resources
+D:\The College\second term\App program\tasks\apps\vb\Chapter Three\Chapter Three\obj\Debug\Chapter_Three.dynamic_form.resources
+D:\The College\second term\App program\tasks\apps\vb\Chapter Three\Chapter Three\obj\Debug\Chapter_Three.projCH3Bio_form2.resources
+D:\The College\second term\App program\tasks\apps\vb\Chapter Three\Chapter Three\obj\Debug\Chapter_Three.projCH3_form1.resources

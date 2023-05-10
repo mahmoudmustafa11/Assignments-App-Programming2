@@ -1,0 +1,15 @@
+Sub app2_ChangeShapeColorToSlide2()
+    Dim oSh As Shape
+    Dim rndR As Integer
+    Dim rndG As Integer
+    Dim rndB As Integer
+    rndR = Int(255 * Rnd)
+    rndG = Int(255 * Rnd)
+    rndB = Int(255 * Rnd)
+    Call goToSlide(2)
+    Call setTimeout
+        For Each oSh In ActivePresentation.Slides(2).Shapes
+            oSh.Fill.ForeColor.RGB = RGB(rndR, rndG, rndB)
+        Next oSh
+    OpenTextFileCode "\codes\ChangeShapeColorToSlide3.txt"
+End Sub

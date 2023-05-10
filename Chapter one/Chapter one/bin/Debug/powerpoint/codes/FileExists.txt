@@ -1,0 +1,16 @@
+Function FileExists(fname) As Boolean
+If Dir(fname) <> "" Then
+MsgBox ("Found file")
+Else
+MsgBox ("Not found file")
+End If
+OpenTextFileCode "\codes\FileExists.txt"
+End Function
+Sub app10_FileExists()
+FileExists (folder_path + "\codes\playSound.txt")
+End Sub
+
+'APP 11
+Sub app11_showPhoto()
+    OpenTextFileCode "\AbuTrika.jpg"
+End Sub

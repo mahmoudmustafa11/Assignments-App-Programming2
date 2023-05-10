@@ -1,0 +1,15 @@
+Sub app5_RemoveEmptyTextBoxesToSlide2()
+    Dim ShapeObj As Shape
+    Dim ShapeIndex As Integer
+    Call goToSlide(2)
+    Call setTimeout
+    For ShapeIndex = ActivePresentation.Slides(2).Shapes.Count To 1 Step -1
+        Set ShapeObj = ActivePresentation.Slides(2).Shapes(ShapeIndex)
+        If ShapeObj.Type = msoTextBox Then
+            If Trim(ShapeObj.TextFrame.TextRange.Text) = "" Then
+            ShapeObj.Delete
+            End If
+        End If
+    Next ShapeIndex
+    OpenTextFileCode "\codes\RemoveEmptyTextBoxesToSlide3.txt"
+End Sub

@@ -1,0 +1,11 @@
+D:\The College\second term\App program\tasks\apps\vb\Chapter one\Chapter one\bin\Debug\Chapter one.exe.config
+D:\The College\second term\App program\tasks\apps\vb\Chapter one\Chapter one\bin\Debug\Chapter one.exe
+D:\The College\second term\App program\tasks\apps\vb\Chapter one\Chapter one\bin\Debug\Chapter one.pdb
+D:\The College\second term\App program\tasks\apps\vb\Chapter one\Chapter one\bin\Debug\Chapter one.xml
+D:\The College\second term\App program\tasks\apps\vb\Chapter one\Chapter one\obj\Debug\Chapter one.vbproj.ResolveComReference.cache
+D:\The College\second term\App program\tasks\apps\vb\Chapter one\Chapter one\obj\Debug\Chapter_one.Form1.resources
+D:\The College\second term\App program\tasks\apps\vb\Chapter one\Chapter one\obj\Debug\Chapter_one.Resources.resources
+D:\The College\second term\App program\tasks\apps\vb\Chapter one\Chapter one\obj\Debug\Chapter one.vbproj.GenerateResource.Cache
+D:\The College\second term\App program\tasks\apps\vb\Chapter one\Chapter one\obj\Debug\Chapter one.exe
+D:\The College\second term\App program\tasks\apps\vb\Chapter one\Chapter one\obj\Debug\Chapter one.xml
+D:\The College\second term\App program\tasks\apps\vb\Chapter one\Chapter one\obj\Debug\Chapter one.pdb

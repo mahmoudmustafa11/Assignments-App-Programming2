@@ -1,0 +1,17 @@
+
+    Sub Main()
+        replaceUBoundToLength("Mahmoud", 22, 10, 14, 74)
+        Console.ReadLine()
+    End Sub
+
+    Sub replaceUBoundToLength(name As String, ParamArray intscores() As Object)
+        Dim output As String = ""
+
+        Console.Write(name & "  " & "Scores")
+
+        For i = 0 To intscores.Length - 1
+            Console.Write("  " & intscores(i))
+        Next i
+
+    End Sub
+

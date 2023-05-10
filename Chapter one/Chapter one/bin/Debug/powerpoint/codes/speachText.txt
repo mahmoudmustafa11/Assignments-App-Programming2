@@ -1,0 +1,9 @@
+
+Private Sub Workbook_Open()
+SAYIT ("Good Morning Ya Mahmoud")
+End Sub
+
+Function SAYIT(txt)
+Application.Speech.Speak (txt)
+SAYIT = txt
+End Function

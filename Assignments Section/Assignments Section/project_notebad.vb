@@ -64,19 +64,28 @@ Public Class project_notebad
     End Sub
 
     Private Sub btn_open_Click(sender As Object, e As EventArgs) Handles btn_open.Click
-        Try
-            If OpenFileDialog1.ShowDialog() = DialogResult.OK Then
-                Dim fileName As String = Path.GetFileName(OpenFileDialog1.FileName)
-                CurrentFile = fileName
 
-                richTxtBox.LoadFile(OpenFileDialog1.FileName, RichTextBoxStreamType.PlainText)
+        If IsModified Then
+            Dim result As DialogResult = MessageBox.Show("Do you want to save changes ?", "My Notepad Application", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning)
+            If result = DialogResult.Yes Then
+                ' Save the changes and close the program
+                SaveFile()
+            Else
+                Try
+                    If OpenFileDialog1.ShowDialog() = DialogResult.OK Then
+                        Dim fileName As String = Path.GetFileName(OpenFileDialog1.FileName)
+                        CurrentFile = fileName
 
-                Me.Text = fileName + " - " + Me.Text
+                        richTxtBox.LoadFile(OpenFileDialog1.FileName, RichTextBoxStreamType.PlainText)
+
+                        Me.Text = fileName + " - " + Me.Text
+                    End If
+
+                Catch ex As Exception
+                    MsgBox(ex.Message)
+                End Try
             End If
-
-        Catch ex As Exception
-            MsgBox(ex.Message)
-        End Try
+        End If
     End Sub
 
     Private Sub btn_save_Click(sender As Object, e As EventArgs) Handles btn_save.Click
